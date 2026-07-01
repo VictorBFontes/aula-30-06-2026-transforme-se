@@ -1,0 +1,188 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#ffffff;
+    color:#ffffff;
+}
+
+/* NAVBAR */
+
+header{
+    width:100%;
+    padding:20px 50px;
+}
+
+nav{
+
+    max-width:1200px;
+    margin:auto;
+
+    background:#4C84C6;
+
+    height:58px;
+
+    border-radius:40px;
+
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+    padding:0 25px;
+}
+
+.logo img{
+    width:42px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+nav ul a{
+
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.login{
+    display:flex;
+    gap:25px;
+}
+
+.login a{
+
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+/* HERO */
+
+.hero{
+
+    max-width:1200px;
+    margin:40px auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    gap:80px;
+}
+
+.texto{
+
+    flex:1;
+}
+
+.texto h1{
+
+    color:#BF7A3A;
+    font-size:60px;
+    line-height:1.1;
+    font-weight:500;
+    margin-bottom:30px;
+}
+
+.texto p{
+
+    color:#333;
+    max-width:470px;
+    line-height:1.6;
+    font-size:18px;
+
+    margin-bottom:35px;
+}
+
+.texto button{
+
+    background:#4C84C6;
+
+    color:#BF7A3A;
+
+    border:none;
+
+    padding:18px 40px;
+
+    border-radius:35px;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+.texto button:hover{
+
+    transform:translateY(-3px);
+}
+
+.imagem{
+
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.box-img{
+
+    width:420px;
+    height:420px;
+
+    background:#A9C5E8;
+
+    border-radius:50px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.box-img img{
+
+    width:330px;
+}
+
+/* FOOTER */
+
+footer{
+
+    margin-top:80px;
+
+    background:#BF7A3A;
+
+    color:white;
+
+    text-align:center;
+
+    padding:15px;
+}
+
+footer p{
+
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+footer .links{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+}
+
+footer a{
+
+    color:white;
+    text-decoration:none;
+    font-size:12px;
+}

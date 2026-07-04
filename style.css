@@ -8,9 +8,12 @@ body{
     font-family:'Poppins',sans-serif;
     background:#ffffff;
     color:#ffffff;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
-/* NAVBAR */
 
 header{
     width:100%;
@@ -64,7 +67,6 @@ nav ul a{
     font-size:14px;
 }
 
-/* HERO */
 
 .hero{
 
@@ -76,6 +78,7 @@ nav ul a{
     align-items:center;
 
     gap:80px;
+    margin-bottom:20%;
 }
 
 .texto{
@@ -152,11 +155,9 @@ nav ul a{
     width:330px;
 }
 
-/* FOOTER */
+
 
 footer{
-
-    margin-top:80px;
 
     background:#BF7A3A;
 
@@ -165,6 +166,7 @@ footer{
     text-align:center;
 
     padding:15px;
+    width:100%;
 }
 
 footer p{
